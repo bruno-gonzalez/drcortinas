@@ -1,0 +1,49 @@
+.card__container{
+   color: #fff;
+   width: 20vw;
+   border: 2px solid #303030;
+   display: flex;
+   flex-flow: column;
+   align-items: flex-start;
+   justify-content: center; 
+   padding: 1em;
+   border-radius: 10px;
+   margin: 1em 4em;
+}
+
+.card__titulo{
+   font-size: 2em;
+   padding-bottom: 1em;
+}
+
+.card__paragrafo {
+   color: #c6c6c6;
+   font-size: 1.1em;
+   padding-bottom: 1em;
+   line-height: 1.5em;
+}
+
+.card__botao{
+   font-size: 1.1em;
+   cursor: pointer;
+   font-weight: bold;
+   background-color: #ffe100db;
+   border: none;
+   border-radius: 8px;
+   padding: .5em 1em;
+   transition: .3s;
+}
+
+.card__botao:hover{
+   transition: .3s;
+   background: #1f1b00aa;
+   color: #fff;
+}
+
+@media screen and (max-width:600px) {
+   .card__container {
+      width: auto;
+      margin: 0;
+      align-items: center;
+   }  
+}

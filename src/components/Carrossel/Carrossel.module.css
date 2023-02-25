@@ -1,0 +1,23 @@
+.carrossel {
+   width: 100vw;
+}
+
+.imagem__carrossel{
+   width: 100%;
+   height: 400px;
+   box-shadow: 2px 4px 6px #000;
+}
+
+.carrossel__mobile {
+   display: none;
+}
+
+@media screen and (max-width: 600px){
+   .carrossel__desktop {
+      display: none;
+   }
+   
+   .carrossel__mobile {
+      display: block;
+   }
+}

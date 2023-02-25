@@ -1,0 +1,25 @@
+.rodape {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 1em;
+   text-align: center;
+   background-color: #303030;
+   color: #fff;
+   background-color: #303030;
+}
+
+.rodape__lista {
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.rodape__link {
+   margin-top: 1em;
+   display: flex;
+   color: #fff700;
+   text-decoration: none;
+   align-items: center;
+}

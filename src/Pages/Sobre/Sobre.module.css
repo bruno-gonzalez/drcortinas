@@ -1,0 +1,37 @@
+.container__sobre {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+}
+
+.titulo__sobre {
+   font-size: 3em;
+   font-weight: bold;
+   padding: 1em;
+}
+
+.container__texto {
+   width:70%;
+   display: flex;
+   align-items: center;
+   margin: 5em 0;
+}
+
+.texto__sobre {
+   font-size: 1.3em;
+   line-height: 1.5em;
+   text-align: center;
+   font-weight: 500;
+   color: #303030;
+}
+
+.imagem__cortina {
+   width: 50%;
+   margin: 0 2em;
+   border-radius: 10px 40px 10px 40px;
+}
+
+.imagem__cortina:last-child {
+   border-radius: 40px 10px 40px 10px;
+}

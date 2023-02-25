@@ -1,0 +1,33 @@
+@keyframes animaBotao {
+   0% {
+      top: 91%;
+   }
+   50% {
+      top: 92%
+   }
+   100% {
+      top: 91%;
+   }
+}
+
+
+.link__botao {
+   display: inline-block;
+   z-index: 1;
+   position: fixed;
+   top: 90%;
+   left: 80%;
+   animation: animaBotao 1.5s infinite both;
+}
+
+.botao__wpp{ 
+   width: 250px;
+   cursor: pointer;
+   height: auto;
+   padding: 1em;
+   background-color: #ffe100;
+   border: 2px solid #303030;
+   border-radius: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
