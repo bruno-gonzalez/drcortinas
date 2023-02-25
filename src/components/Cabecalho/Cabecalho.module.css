@@ -14,3 +14,14 @@
    margin: 0 1em;
    font-weight: 700;
 }
+
+@media screen and (max-width:600px) {
+   .cabecalho {
+      flex-flow: column;
+      padding: 1em;
+   }
+
+   .navbar {
+      margin-top: 2em;
+   }
+}

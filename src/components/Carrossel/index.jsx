@@ -1,14 +1,11 @@
 import { Autoplay, Pagination } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import imagensCarrossel from '../../data/db.json'
-import styles from './Carrossel.module.css'
-
+import imagensCarrossel from '../../data/db.json';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import styles from './Carrossel.module.css';
 
 export default function Carrossel() {
 

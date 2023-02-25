@@ -1,14 +1,14 @@
 .card__container{
+   width: 30%;
    color: #fff;
-   width: 20vw;
    border: 2px solid #303030;
    display: flex;
    flex-flow: column;
    align-items: flex-start;
-   justify-content: center; 
+   justify-content: space-between; 
    padding: 1em;
    border-radius: 10px;
-   margin: 1em 4em;
+   margin: 1em 0;
 }
 
 .card__titulo{
@@ -43,7 +43,8 @@
 @media screen and (max-width:600px) {
    .card__container {
       width: auto;
-      margin: 0;
+      margin: 2em 0;
       align-items: center;
+      border-bottom: 1px solid #6362623b;
    }  
 }

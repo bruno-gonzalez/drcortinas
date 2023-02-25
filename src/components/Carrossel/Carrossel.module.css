@@ -19,5 +19,10 @@
    
    .carrossel__mobile {
       display: block;
+      height: 300px;
+   }
+
+   .imagem__carrossel {
+      height: auto;
    }
 }

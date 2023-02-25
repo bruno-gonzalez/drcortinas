@@ -35,3 +35,27 @@
 .imagem__cortina:last-child {
    border-radius: 40px 10px 40px 10px;
 }
+
+@media screen and (max-width:600px) {
+
+   .titulo__sobre {
+      text-align: center;
+      padding: 0;
+      font-size: 2.5em;
+      margin-top: 1em;
+   }
+
+   .imagem__cortina{
+      width: 100%;
+      margin-bottom: 1.5em;
+   }
+
+   .container__texto {
+      margin-top: 2em;
+      flex-flow: column;
+   }
+
+   .container__texto:last-child {
+      flex-flow: column-reverse;
+   }
+}

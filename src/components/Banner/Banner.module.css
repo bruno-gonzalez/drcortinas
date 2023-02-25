@@ -16,3 +16,15 @@
    color: #ffffff;
    text-align: center;
 }
+
+@media screen and (max-width:600px) {
+   .banner__container {
+      height: 50vh;
+      background-position: right;
+   }
+
+   .titulo {
+      font-size: 3em;
+      margin: 0 1em;
+   }
+}

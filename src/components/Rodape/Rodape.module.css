@@ -6,7 +6,6 @@
    text-align: center;
    background-color: #303030;
    color: #fff;
-   background-color: #303030;
 }
 
 .rodape__lista {
@@ -22,4 +21,14 @@
    color: #fff700;
    text-decoration: none;
    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+   .rodape__lista {
+      flex-flow: column;
+   }
+
+   .rodape__item {
+      margin: 1em 0;
+   }
 }
