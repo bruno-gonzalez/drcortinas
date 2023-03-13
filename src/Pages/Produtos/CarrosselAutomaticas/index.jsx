@@ -29,13 +29,17 @@ export default function CarrosselAutomaticas(){
                É o conforto do novo século chegando ao aconchego de seu ambiente preferido.
             </p>
               <div className={styles.rodape}>
-               <button className={styles.botaoIG}>
-                  Veja mais no Instagram <FiExternalLink  color='#fff'/>
-               </button>
-               <button className={styles.botaoOR}>
-                  Orçamento <FiPhone size={20} />
-               </button>
-            </div>
+                  <a className={styles.link__botao} href="https://www.instagram.com/dr.cortinascanoas/">
+                     <button className={styles.botaoIG}>
+                        Veja mais no Instagram <FiExternalLink  color='#fff'/>
+                     </button>
+                  </a>
+                  <a className={styles.link__botao} href="https://api.whatsapp.com/send/?phone=5551991335147&text&type=phone_number&app_absent=0">
+                     <button className={styles.botaoOR}>
+                        Orçamento <FiPhone size={20} />
+                     </button>
+                  </a>
+               </div>
          </Swiper>
 
          <Swiper
@@ -56,13 +60,17 @@ export default function CarrosselAutomaticas(){
                É o conforto do novo século chegando ao aconchego de seu ambiente preferido.
             </p>
               <div className={styles.rodape}>
-               <button className={styles.botaoIG}>
-                  Veja mais no Instagram <FiExternalLink  color='#fff'/>
-               </button>
-               <button className={styles.botaoOR}>
-                  Orçamento <FiPhone size={20} />
-               </button>
-            </div>
+                  <a className={styles.link__botao} href="https://www.instagram.com/dr.cortinascanoas/">
+                     <button className={styles.botaoIG}>
+                        Veja mais no Instagram <FiExternalLink  color='#fff'/>
+                     </button>
+                  </a>
+                  <a className={styles.link__botao} href="https://api.whatsapp.com/send/?phone=5551991335147&text&type=phone_number&app_absent=0">
+                     <button className={styles.botaoOR}>
+                        Orçamento <FiPhone size={20} />
+                     </button>
+                  </a>
+               </div>
          </Swiper>
       </section>
    )
