@@ -21,7 +21,7 @@ export default function Produtos() {
                
             </li>
             <li className={styles.itens__produtos}>
-                  <a className={styles.link__produtos} href='/sobre'> 
+                  <a className={styles.link__produtos} href='/produtos'> 
                      <GiTheaterCurtains color='#303030' size={100} /> 
                      <span className={styles.titulo__produto}>Perisanas</span>
                   </a>

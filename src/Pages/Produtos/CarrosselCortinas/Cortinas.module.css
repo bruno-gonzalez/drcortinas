@@ -37,6 +37,10 @@
    background-color: #ffe100;
 }
 
+.link__botao {
+   text-decoration: none;
+}
+
 .botaoIG {
    background-color: #292929e6;
    color: #fff;
